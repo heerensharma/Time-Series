@@ -1,3 +1,7 @@
+Words of wisdom:
+1. Data may be evil. Like NA fields and even if you are doing the right things, world seem to fall apart.
+2. Check the type of data types of columns before doing any conversion.
+
 First encounter with pandas dataframe:
 
 Step1: Realize the time data column
