@@ -12,3 +12,5 @@ Step3: For advanced calculations, format the datetime as per desired precision
 
 Step4: Now start grouping by the same datetime entries over desired criteria, e.g. mean of another column entry,
        nrow, etc. Keep "ddply" function of "plyr" R library in mind.
+
+Step5: If desired some plots to get the hint for initial analysis
