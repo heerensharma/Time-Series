@@ -13,10 +13,10 @@ data['start_seen'] = pd.to_datetime(data['start_seen'],format="%d.%m.%y %H:%M")
 data = data.dropna()
 #Step 3
 data.start_seen = data.start_seen.map(lambda x: x.strftime("%Y-%m-%d"))
-
+#step 4
 df = data.groupby('start_seen').apply(lambda x: x.count())[['start_seen','unique_id']]
 
-df.start_seen = df.index[:]
+df['start_seen'] = df.index[:]
 
 
 #lets make some plot to show what you got  May be considered as step 4
